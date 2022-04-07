@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "197388955365",
+    "project_id": "california-clube-1649174683203",
+    "storage_bucket": "california-clube-1649174683203.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197388955365:android:47ada64ca76698be566e0c",
+        "android_client_info": {
+          "package_name": "br.edu.infnet.califrniaclube"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197388955365-havf1r2sgeagg1mltp2tjqqmkv90agvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVPvVW9uI7WUl-96DGA3doe0l4IciThyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197388955365-havf1r2sgeagg1mltp2tjqqmkv90agvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Cadastro de novos membros do Clube!"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="300dp"
+        android:layout_height="450dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.067">
+
+        <EditText
+            android:id="@+id/nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:ems="10"
+            android:hint="Nome:"
+            android:inputType="textPersonName"
+            android:text=""
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <EditText
+            android:id="@+id/idade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:ems="10"
+            android:hint="Idade: "
+            android:inputType="number"
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="79dp" />
+
+        <EditText
+            android:id="@+id/telefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:ems="10"
+            android:hint="Telefone: "
+            android:inputType="phone"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="151dp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:ems="10"
+            android:hint="Email: "
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="232dp" />
+
+        <EditText
+            android:id="@+id/cep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:ems="10"
+            android:hint="CEP: "
+            android:inputType="number"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="307dp" />
+
+        <EditText
+            android:id="@+id/rua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:ems="10"
+            android:hint="Rua: "
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="390dp" />
+
+        <EditText
+            android:id="@+id/bairro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:ems="10"
+            android:hint="Bairro:"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="485dp" />
+
+        <EditText
+            android:id="@+id/cidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:ems="10"
+            android:hint="Cidade: "
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="559dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_cadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:text="Cadastrar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.258" />
+
+    <Button
+        android:id="@+id/button_cep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="Buscar CEP"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toEndOf="@+id/button_cadastrar"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.258" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
